@@ -1,0 +1,81 @@
+PRIMERA CLASE
+
+EN LA PROGRAMACION HAY UN PUNTO IMPORTANTE QUES PODRIA SER EL INTERNET
+cuando habramos del internet se trata de un conjunto de computadores conectados atravez de protocolos 
+la web es el conjunto de paginas web que estan alojadas en el internet
+
+
+las paginas estan alojadas en un servidor del internet
+los computadores deben etsar conectados a internet y estsas ip son publicas
+
+nosotros vamos a crear paginas web orientadas a aplicaciones empresariales
+
+estandariza la web mediante un consorcio 
+
+ELEMENTOS PRINCIPALES
+
+HTML como un lenguaje de marcado para crear la estructura y contenido de pagina web su version es html5
+CSS  cascade stale shift (hoja de estilo en cascada) su version actual es css3 ayuda a definir el estilo y diseño de mi pagina web
+JAVA SCRIP  estabresemos el comportamiento de nuestra pagina web
+
+
+con css los elementos toman un orden, damos un diseño atractivo
+con java scrip manejamos arreglos, funciones
+
+
+HTML ESTANDARES
+
+* todo lo que se maneja dentro de html es un elemento cada elemento tiene su nombre
+  este elemento siempre esta conformado por la siguiente estructura
+ 
+	etiqueta de apertura
+		< nombre del elemento >
+	contenido 
+		el contenido depende de lo que yo este trabajando en la practica
+	etiqueta de cierre
+		< /n nombre del elemento >
+
+NOTA------------------------------------
+una etiqueta de apertura puede estar conformada por atributos que se crea por clave valor
+donde la clave es el nombre del atributo 
+y el valor esta en comillas dobles
+--------------------------------------------
+
+ESTRUCTURA PRINCIPAL
+
+estos elementos html tienen un estructura principal
+
+un elemento denominado html
+y dos elementos hijos de este html que son head y body
+
+ESTRUCTURA PRINCIPAL
+
+<html>
+	<head>
+	</head>
+	<body>
+	</body>
+</html>
+
+ESTRUCTURA PAGINA WEB ESTATICAS O TRADICIONALES
+
+una carpeta img que esta destina para todo contenido de imagenes
+una carpeta js destinada para crear todo lo que corresponde para java scrip
+una carpeta css para todo los estilos
+una carpeta html o page para todo lo que es pagina web
+INDEX.HTMl
+
+
+NOTA----------------
+atajo ! y tab
+---------------------
+
+
+el contenido que se alojar dentro del "HEAD" es la metadata de nuestras paginas web
+la metadata es la informacion oculta de un archivo o de una pagina web
+POR EJEMPLO 
+meta charset="UTF-8" es el adgoritmo de codificacion que va a utilizar mi pagina web
+view port pagina web responsibol
+
+
+https://github.com/santiagochango1999/pw_u1_p5_sc/commits/main
