@@ -1,0 +1,45 @@
+SEGUNDA CLASE
+
+ESTANDAR PARA EL CONTENIDO DE MI PAGINA WEB
+
+*Cabecera
+*Barra de Navegacion
+*Informacion Principal
+*Barra Lateral
+*Pie de pagina
+
+*<header> </header>
+*<nav> </nav>
+*<section> </section>
+*<aside> </aside>
+*<footer> </footer>
+
+cuando tenemos estandares permite a mi pagina web sea indexable
+
+
+SEO: solo aplicandole buenos estandares que es organica para que salga en los primeros lugares 
+SEM: vuelta si aplicamos una estrategica de SEM que es pagada para que salga en primer lugar
+
+
+*<nav> </nav>
+barra de navegacion a elementos internos
+se les debe trabajar como una lista 
+se utiliza dos elementos que me permita verles como una lista
+<ul> 
+<li> </li>
+</ul>
+
+*<aside> </aside>
+barra de navegacion a elementos externos
+
+<blockquote cite="">
+dentro de cite se pega las referencias
+
+*<footer> </footer>
+todo elemento puede tener un elemento footer
+
+
+* los formularios no puden o si el aside
+* para la construccion de formularios se maneja las tablas
+
+https://github.com/santiagochango1999/pw_u1_p5_sc/tree/taller2
