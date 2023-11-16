@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+h3{
+    color:red;
+}
+#idtitulo{
+    color:aquamarine;
+}
+.amarillo{
+    color:yellow;
+}
+
+img[src]{
+    height: 100px;
+    width: 100px;
+    
+}
+
+h6:hover{
+    color: black;
+}

@@ -1,0 +1,126 @@
+TERCERA CLASE
+
+Paginas web se le realiza a travez de formularios que es el principal punto de interaccion entre el usuario y la web permitiendo el ingreso y presentar datos
+de otra forma permite interactuar
+
+CSS3 tiene una forma particular de trabajar 
+trabaja eligiendo a los elementos, nosotros le indicamos que elementos va a elejir para aplicar un estilo
+
+CSS maneja los selectores que van a permitir seleccionar a los elementos que va aplicar el estilo
+
+como se declara un estilo
+
+selector{
+	declaracion 1;
+	declaracion 2;
+}
+
+una declaracion esta formada por una clave valor
+
+clave:valor
+
+TENEMOS 6 TIPOS DE SELECTORES
+
+1.-UNIVERSAL
+
+Aplica el estilo a todo los elementos 
+la nomenclatura es el " * "
+
+*{
+
+}
+
+2.-TIPO ELEMENTO
+
+Significa que va a seleccion por elemento
+la nomenclatura es el " nombre del elemento "
+
+h1{
+
+}
+
+3.-TIPO CLASE
+
+Relaciona a un grupo 
+LA NOMENCLATURA ES " .nombre de la clase "
+
+.botoneseliminar{
+
+}
+
+4.-ID ELEMENTO
+
+La nomenclatura es " #id elemento "
+
+#idnombr{
+
+}
+
+
+5.- POR ATRIBUTO
+
+por atributo de los elementos
+va a seleccionar elementos por algun atributo en especial que el tenga y tambien podemos seleccionar por el valor del atributo que tenga el elemento
+La nomenclatura es " nombreelemento[nombre atricuto] "
+
+otra forma es  " nombreelemento[nombreatributo = " valor "] "
+
+PRIMER TIPO POR ATRIBUTO img[src]
+SEGUNDO TIPO POR ATRIBUTO label[id* = " idnombre "]
+		 	  img[src* = " jpg "] 			
+
+6.- PSEUDO-CLASE
+
+esta orientado a eventos que sucesa a nuestra pagina web
+
+La nomenclatura es " nombre elemento : nombre elemento "
+tambien puede ir cualquiera de los 5 selectores en el nombre elemento
+
+button : hover {
+
+}
+
+
+ TENEMOS 3 TIPOS DE MANERAS DE DECLARAR LOS ESTILOS CSS
+
+1)EN LINEA
+
+Declarar el estilo a nivel de elemento es decir que el estilo va a estar dentro de la declaracion de un elemento 
+a nivel de atributo en el html
+
+se dice que no es practico ni reutilizable
+
+2)INTERNO
+
+se refiere que el estilo va a estar declarado a nivel unicamente de la pagina web 
+
+podemos utilizar los 6 tipos de selectores 
+se hubica en el head con un style
+
+3)EXTERNO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
