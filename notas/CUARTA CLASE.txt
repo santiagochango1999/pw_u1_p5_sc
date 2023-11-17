@@ -1,0 +1,81 @@
+CUARTA CLASE
+
+EXTERNO
+
+TOCA TOMAR UN TIPO DE DECLARACION EXTERNO
+QUIERE DECIR QUE VA A ESTAR EN UN ARCHIVO DIFERENTE CON UNA EXTENCION CSS
+nos permite reutilizar los estilos
+
+cada pagina referencia al archivo CSS y ahi podemos utilizar todas las declaraciones que tenga el archivo
+
+
+link 
+ayuda a referencias 
+
+	href
+	en esta parte se pone la referencia
+	ejemplo
+	href="../css/externo.css"
+
+NOTA
+---------------------------
+sin el link no vamos a poder referencias para poner los estilos
+--------------------------------
+
+En los examenes vamos a utilizar declaracion de estilos externos
+
+
+************los beneficios de tener una declaracion externa es la reutilizacion de los estilos
+
+
+no siempre debemos tener en un solo archivo 
+es bueno separar segun un criterio valido
+
+
+*************** puedo hacer convinacion de estilos unica condicion es que sean hijos 
+
+++++++font 
+debe tener una estructura se dbe tener un bold el tamaño y el tipo de letra
+font: bold 14px verdana:
+
+
+todo los elemento html esta formado por 3 partes
+
+*Primera parte 
+Espacio por elementos se les conoce como margin
+
+*Segunda Parte 
+Es el borde y adquiere el nombre border
+
+*Tercera Parte
+Esta conformada por el espacio que yo tengo desde mi contenido hacia el borde
+se la conoce como padding
+
+++++++padding 
+siempre se declara segun las manesillas del reloj para los margenes 
+con 4 dijitos
+   padding: 10px 5px 4px 20px ;
+
+con 2 dijitos se aplica el uno arriba y abajo y el otro derecha e izquierda
+   padding: 10px 50px ;
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/santiagochango1999/pw_u1_p5_sc/commits/taller4
+
+
+
+
+
+
+
+
+
