@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>MI CALCULADORA</h1>
+    </header>
+    <nav>
+
+    </nav>
+    <section>
+
+        <label for="idnumero1">Número 1</label>
+        <input type="number" id="idnumero1">
+        <label for="idnumero2">Número 2</label>
+        <input type="number" id="idnumero2">
+        <img id="idimg1" src="https://i.pinimg.com/736x/ae/ca/bb/aecabbb80f83af71ad05737e2ae2a483.jpg" alt="no se pudo">
+
+        <button onclick="document.getElementById('idnumero1').style.color='blue'">Cambiar Estilo 1</button>
+        <button onclick="document.getElementById('idnumero2').style.background='red'">Cambiar Estilo 2</button>
+        <button onclick="document.getElementById('idimg1').src='https://raulperez.tieneblog.net/wp-content/uploads/2015/09/tux.jpg' ">Cambiar imagen</button>
+        <!--<button onclick="document.getElementById('idresultado').innerText=1+6">Presentar Resultado</button>-->
+        <button onclick="document.getElementById('idresultado').innerHTML=1+6">Presentar Resultado</button>
+        <button onclick="document.getElementById('iddiv').innerHTML='<button>hola</button>'">Agregar Elemento</button>
+        <label id="idresultado" for=""></label>
+        <div id="iddiv">
+            <!--<button>hola</button>-->
+        </div>
+
+    </section>
+    <footer>
+        TODO LOS DERECHOS RESERVADOS
+    </footer>
+</body>
+
+</html>
