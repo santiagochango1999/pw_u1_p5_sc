@@ -1,0 +1,74 @@
+SEXTA CLASE
+
+JAVA SCRIPt
+-ayuda a dar comportamiento a nuestra pagina web
+-se basa en cma scrip que es un conjunto de especificaciones
+-es un lenguaje de alto nivel que sigue un paradigma orientado a objetos que sus inicios tenia un enfoque en ejecutar en el cliente
+
+FrontEnd
+Interfacez de usuarios
+
+BackEnd
+Logica de negocio
+
+
+-JS solo se ejecutaba en el navegador por su conceptopero ahora sirve para construir paginas en el FrontEnd con un FramenWord y tambien se puede construir logica de negocio
+
+Se puede declarar de 3 formas
+
+1.-En linea
+2.-Interna
+3.-Externa: es un archivo js
+
+En Js SE LES CONOCE COMO FUNCIONES es muy similar a un metodo
+
+function nombref(a,b){
+	return;
+}
+
+Nota
+-----------------
+NO SE DECLARA EL TIPO DE RETORNO
+NO SE DECLARA EL TIPO DE ARGUMENTO
+Siempre toca terminar en ; como buena practica
+-----------------
+
+
+cuando trabajamos con html utilizamos al DOM (Document Object Moden)
+los elementos html estan distrubuidos en una forma de arbol por ejemplo 
+
+html
+	head
+	body
+		header
+			h1
+			h2
+		nav
+		section
+			label
+			input
+
+se lo conoce como el "DOM" toda la estructura de arbol conformada por elementos html
+
+
+dentro de button tenemos algunos atributos que representan atributos
+siempre vienen con el prefijo on 
+
+cuando yo dijito la palabra "Document" estoy ingresando al DOM
+
+INNERTEXT
+al contenido le agraga un valor numerico o un texto
+
+INNERHTML
+nos sirve como el innertext pero tambien nos sirve para agregar al contenido del elemento un elemento o codigo html
+
+
+
+
+
+
+
+
+
+
+
