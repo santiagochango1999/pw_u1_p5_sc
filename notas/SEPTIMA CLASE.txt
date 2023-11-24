@@ -1,0 +1,20 @@
+SEPTIMA CLASE
+dentro de la cabecera declaramos el elemento script y ahi declaramos las funciones JS}
+
+Manejo de variables
+
+hay 3 tipos de variables
+
+1.-let
+	son valores que pueden cambiar
+	es mas actualizado y mas resiente y mas eficiente
+2.-var
+	son valores que pueden cambiar
+	
+3.-const
+	sirve para declarar constante tanto numerico como tetxo
+	uso comillas simples o comillas dobles
+
+
+ARREGLOS DE TIPO CONSTANTE
+https://github.com/santiagochango1999/pw_u1_p5_sc/commits/tller7
