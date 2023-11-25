@@ -1,0 +1,51 @@
+.container{
+    display: flex;/* les agrupa */
+    justify-content:center ;/* para justificar su contenido */
+    align-items: center; /*  ali;a los item*/
+
+}
+
+.calculadora_numeros{
+    display: grid;/*  */
+    grid-template-columns: repeat(3,100px);
+    padding: 15px 15px 5px 15px;
+    background: rgb(82, 163, 245);
+    border-radius: 15px;
+
+}
+.calculadora_operaciones{
+    display: grid;
+    padding: 0px 15px 15px 15px;
+    grid-template-columns: repeat(2,150px);
+    background: rgb(82, 163, 245);
+    border-radius: 15px;
+
+}
+
+.calculadora_general{
+    display: grid;
+    grid-template-columns: repeat(1,330px);
+    background: rgb(82, 163, 245);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.509);
+
+}
+
+
+.col-3{
+    grid-column: span 3; /* me ayuda ha expandir mas un boton */
+}
+.col-2{
+    grid-column: span 2; /* me ayuda ha expandir mas un boton */
+}
+
+label{
+    height: 20px;
+    background-color: white;
+    padding-left: 10px;
+}
+h1{
+    display: flex;/* les agrupa */
+    justify-content:center ;/* para justificar su contenido */
+    align-items: center; /*  ali;a los item*/
+}

@@ -5,34 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="../js/deber1.js">
-    </script>
+
+    <script src="../js/deber1.js"></script>
+    <link rel="stylesheet" href="../css/estilosCalculadora.css">
+
 </head>
 
 <body>
-    <header>
-        <h1>MI CALCULADORA</h1>
-    </header>
-    <nav></nav>
-    <section>
-        <button onclick="ingresa('0')" >0</button>
-        <button onclick="ingresa('1')" >1</button>
-        <button onclick="ingresa('2')" >2</button>
-        <button onclick="ingresa('3')" >3</button>
-        <button onclick="ingresa('4')" >4</button>
-        <button onclick="ingresa('5')" >5</button>
-        <button onclick="ingresa('6')" >6</button>
-        <button onclick="ingresa('7')" >7</button>
-        <button onclick="ingresa('8')" >8</button>
-        <button onclick="ingresa('9')" >9</button>
-        <button onclick="operacion('+')" >+</button>
-        <button onclick="operacion('-')" >-</button>
-        <button onclick="operacion('/')" >/</button>
-        <button onclick="operacion('*')" >*</button>
-        <button onclick="resultado()" >=</button>
-        <button onclick="reset()">R</button>
-        <label id="idmuestra" for="">0</label>
-    </section>
+    <div class="container">
+        <header>
+        </header>
+        <nav></nav>
+        <section>
+            <div class="calculadora_general">
+                <h1>MI CALCULADORA</h1>
+                <label id="idmuestra" for=""></label>
+                <div class="calculadora_numeros">
+                    <button onclick="ingresa('1')">1</button>
+                    <button onclick="ingresa('2')">2</button>
+                    <button onclick="ingresa('3')">3</button>
+                    <button onclick="ingresa('4')">4</button>
+                    <button onclick="ingresa('5')">5</button>
+                    <button onclick="ingresa('6')">6</button>
+                    <button onclick="ingresa('7')">7</button>
+                    <button onclick="ingresa('8')">8</button>
+                    <button onclick="ingresa('9')">9</button>
+                    <button class="col-3" onclick="ingresa('0')">0</button>
+                </div>
+                <div class="calculadora_operaciones">
+                    <button onclick="operacion('+')">+</button>
+                    <button onclick="operacion('-')">-</button>
+                    <button onclick="operacion('/')">/</button>
+                    <button onclick="operacion('*')">*</button>
+                    <button class="col-2" onclick="resultado()">=</button>
+                    <button class="col-2" onclick="reset()">R</button>
+                </div>
+            </div>
+        </section>
+    </div>
     <aside></aside>
     <footer></footer>
 </body>
