@@ -1,1 +1,48 @@
 OCTAVA CLASE
+la palabra of hace referencia al array dentro del for  each
+
+
+EN LA DECLARACION DE OBJETOS 
+
+1.- no se declara como clase sino como instancia
+
+2.- VAMOS A UTILIZAR CLAVE VALOR
+
+clave es el nombre
+valor dependera del objeto
+
+3.- usa una nomenclatura similar a Json
+
+--------------------------------------------------------
+
+const Persona={
+        Nombre:"Santiago",
+        Apellido:"Calvopiña",
+        Edad:"31",
+        Direccion:{
+            callePrincipal:"Salvador ortega",
+            calleSegundaria:"Accion Civica",
+            Numeracion:"E6411",
+            Barrio:"La ferroviaria"
+        }
+    }
+
+------------------------------------------------------------
+    
+DESESTRUCTURACION DE ARREGLOS
+
+de alguna forma el arreglo lo dividimos en partes
+
+
+    //DESESTRUCTURACION DE OBJETOS
+desustructamos mediante los atributos no por posicion
+
+
+DEBER--------------------------------------------------------------
+CONSTRUIR UNA PAGINA
+PONER BOTONES PARA 0 HASTA EL 9
+Y PONER PARA LAS 4 OPERACIONES
+Y UNA PANTALLA TIPO LABEL 
+PROGRAMAR LA FUNCIONALIDAD DE LA SUMA
+Y UN BOTON DE RESET
+
