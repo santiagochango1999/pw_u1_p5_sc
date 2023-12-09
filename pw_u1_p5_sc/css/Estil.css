@@ -54,3 +54,7 @@ body{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+button:focus{
+    background-color: #d24652;
+    
+}
