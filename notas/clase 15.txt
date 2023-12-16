@@ -1,0 +1,28 @@
+clase 15
+componentres o directiva
+es un componenete que me permite poner funcionalidades especificas como eventros,iteraciones
+
+	directiva V-on:click
+
+	directiva a iteraciones
+
+es la v-for 
+esta directiva nos permite iterar sobre un elemento iterable puede ser lista vector 
+
+ejemplo 
+de la base de datos o backend viene la lista de estudiantes 
+
+vamos a utilizar propiedades reactivos para comunnicar vista controlador
+
+v-for me permite iterar sobre un elemento iterable
+
+cuando tenga un elemento de entrada necesito ese elemento enviar 
+cuando es un elemento de entrada necesito una directiva v-model me permite atar o vincular el valor que se ingresa en el elemnto html de entrada a una propiedad reactiva
+
+
+unshift: agrega al inicio
+push: agrega al final
+pop:eliminar
+
+
+https://github.com/santiagochango1999/pw_u1_p5_sc/commits/taller15/

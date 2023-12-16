@@ -1,0 +1,9 @@
+clase16
+modificadores de eventos 
+lo que hacen es que al evento hacen dar un alcanze mas pequeño como
+los modificadores de eventos evitan ir al javascrip
+
+el @ es shorput que puede reemplazar al v-on: incluido los dos puntos
+
+ejercicio
+si un elemento no tiene el nombre no lo vamos a mostrar

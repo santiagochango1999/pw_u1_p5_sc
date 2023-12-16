@@ -2,7 +2,7 @@ console.log("elementos Vue");
 console.log(Vue);
 
 const estudiantes = [{ nombre: 'EDISON', apellido: 'cayambe' }, { nombre: 'santiago', apellido: 'cayambe' }, { nombre: 'andres', apellido: 'cayambe' },
-{ nombre: 'marlene', apellido: 'castillo' }, { nombre: 'fernanda', apellido: 'soteldo' }]
+{ nombre: 'marlene', apellido: 'castillo' }, { nombre: '', apellido: 'soteldo' }]
 
 console.log(estudiantes)
 console.table(estudiantes)
@@ -34,11 +34,19 @@ const app = Vue.createApp({
         presioanndoTecla(event){
             console.log("presionando....")
             console.log(event.charCode)
+            console.log(event)
         },
-        presion(event){
-            if(event.charCode===13){
-                this.AgregarEstudiante
+       /*  presion({charCode}){
+            console.log(charCode)
+            if(charCode===32){
+                console.log("hola")
+                this.AgregarEstudiante()
             }
+        }, */
+        AgregarEstudianteMod(){
+            console.log("presionando2")
+            this.AgregarEstudiante()
+            console.log(this.nombre)
         }
 
     },
