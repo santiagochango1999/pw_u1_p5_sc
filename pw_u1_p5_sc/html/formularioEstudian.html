@@ -5,26 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="../css/formulario.css">
 </head>
 
 <body>
-    <header></header>
-    <nav></nav>
-    <section>
-        <form action="">
-            <h2>Nuevo Estudiante</h2>
-            <p type="Nombre"><input type="text"></p>
-            <p type="Apellido"><input type="text"></p>
-            <p type="Ciudad"><input type="text"></p>
-            <p type="Numero"><input type="number"></p>
-            <p type="Colegio"><input type="text"></p>
-            <button>AGREGAR</button>
+
+    <div class="container">
+
+        <header>
+            <h1>Estudiante</h1>
+        </header>
+        <nav></nav>
+        <section>
+            <div id="idFormulario" >
+            <div class="form" >
+                <h2>Nuevo estudiante</h2>
+                <p type="Nombre:"><input id="idNombre" type="text" v-model="nombre"></p>
+                <p type="Apellido:"><input id="idApellido" type="text" v-model="apellido"></p>
+                <p type="Barrio:"><input id="idBarrio" type="text" v-model="Barrio"></p>
+                <p type="Cédula:"><input id="idCedula" type="text" v-model="cedula"></p>
+                <p type="País:"><input id="idPais" type="text" v-model="pais"></p>
+                <hr/>
 
 
 
-        </form>
-    </section>
-    <footer></footer>
+                <button v-on:click="metodo1">Agregar</button>
+
+        
+        </div>
+        <ul>
+            <li v-for="({nombre,apellido,Barrio,cedula,pais} , index) in lista"> {{index +1}}: {{nombre}}-{{apellido}}-{{Barrio}}-{{cedula}}-{{pais}} </li>
+        </ul>
+    </div>
+        </section>
+        <script src="../js/formulario.js"></script>
+        <footer></footer>
+    </div>
 </body>
 
 </html>
